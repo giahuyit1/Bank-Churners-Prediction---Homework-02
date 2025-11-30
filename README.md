@@ -74,7 +74,7 @@ Theo yêu cầu của đồ án, quy trình xử lý dữ liệu tuân thủ ngh
 
 ```bash
 # Clone repository
-
+git clone https://github.com/giahuyit1/Bank-Churners-Prediction---Homework-02.git
 # Cài đặt các thư viện
 pip install -r requirements.txt
 ```
@@ -111,23 +111,23 @@ Kết quả đánh giá trên tập kiểm tra (Test set)
 # 7. Cấu trúc project
 
 project/
-├── README.md               # Mô tả tổng quan dự án 
-├── requirements.txt        # Liệt kê các thư viện cần thiết 
-├── data/                   # Thư mục chứa dữ liệu 
-│   ├── raw/                # Dữ liệu gốc 
-│   │   └── BankChurners.csv  # Tên file dữ liệu gốc
-│   └── processed/          # Dữ liệu đã xử lý
-│       └── X_numpy.csv
-|        └── Y_numpy.csv     # File NumPy array đã xử lý
-├── notebooks/              # Jupyter Notebooks 
-│   ├── 01_data_exploration.ipynb  # Khám phá dữ liệu 
-│   ├── 02_preprocessing.ipynb     # Tiền xử lý 
-│   └── 03_modeling.ipynb          # Xây dựng mô hình 
-└── src/                    # Mã nguồn tái sử dụng 
-    ├── __init__.py         # Khai báo package 
-    ├── data_processing.py  # Hàm xử lý/chuẩn hóa dữ liệu bằng NumPy
-    ├── visualization.py    # Hàm vẽ biểu đồ 
-    └── models.py           # Hàm triển khai mô hình
+├── README.md # Mô tả tổng quan dự án
+├── requirements.txt # Liệt kê các thư viện cần thiết
+├── data/ # Thư mục chứa dữ liệu
+│ ├── raw/ # Dữ liệu gốc
+│ │ └── BankChurners.csv
+│ └── processed/ # Dữ liệu đã xử lý
+│ ├── X_numpy.csv
+│ └── Y_numpy.csv
+├── notebooks/ # Jupyter Notebooks
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_preprocessing.ipynb
+│ └── 03_modeling.ipynb
+└── src/ # Mã nguồn tái sử dụng
+├── init.py
+├── data_processing.py
+├── visualization.py
+└── models.py
 # 8. Khó khăn & giải pháp
 |Thách thức (Khi chỉ dùng NumPy) | Giải pháp |
 |---|---|
