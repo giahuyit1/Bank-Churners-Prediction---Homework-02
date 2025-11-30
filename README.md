@@ -110,24 +110,27 @@ Kết quả đánh giá trên tập kiểm tra (Test set)
 
 # 7. Cấu trúc project
 
+<pre>
 project/
-├── README.md                     # Mô tả tổng quan dự án
-├── requirements.txt              # Liệt kê các thư viện cần thiết
-├── data/                         # Thư mục chứa dữ liệu
-│   ├── raw/                      # Dữ liệu gốc
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── raw/
 │   │   └── BankChurners.csv
-│   └── processed/                # Dữ liệu đã xử lý
+│   └── processed/
 │       ├── X_numpy.csv
 │       └── Y_numpy.csv
-├── notebooks/                    # Jupyter Notebooks
+├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_preprocessing.ipynb
 │   └── 03_modeling.ipynb
-└── src/                          # Mã nguồn tái sử dụng
+└── src/
     ├── __init__.py
     ├── data_processing.py
     ├── visualization.py
     └── models.py
+</pre>
+
 
 # 8. Khó khăn & giải pháp
 |Thách thức (Khi chỉ dùng NumPy) | Giải pháp |
